@@ -1,6 +1,11 @@
-cd 磁盘：          进入该磁盘
-cd 文件名          进入文件夹
-dir                查看文件夹
-mkdir 文件名       新建文件夹
-pwd                查看当前路径
-git init           初始化
+   Github笔记
+
+cd 磁盘：          		进入该磁盘
+cd 文件名         		进入文件夹
+dir               		查看文件夹
+mkdir 文件名       		新建文件夹
+pwd                		查看当前路径
+git init           		初始化
+git add+名字      		添加
+git status         		查看当前状态 
+git commit -m +内容         	备注当前内容，对当前事件的描述           
