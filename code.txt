@@ -2,10 +2,16 @@
 
 cd 磁盘：          		进入该磁盘
 cd 文件名         		进入文件夹
+cd ..                           返回上一级
 dir               		查看文件夹
 mkdir 文件名       		新建文件夹
 pwd                		查看当前路径
 git init           		初始化
 git add+名字      		添加
 git status         		查看当前状态 
-git commit -m +内容         	备注当前内容，对当前事件的描述           
+git commit -m +内容         	备注当前内容，对当前事件的描述
+git diff+文件名                 查看修改的内容
+git log                         查看提交记录
+git reset --hard HEAD^          回到上一个版本（记录），版本回退
+
+修改后先查看状态——提交——查看状态——再备注           
