@@ -18,5 +18,10 @@ git cat +文档名                 查看文档具体的内容
 git reflog                      查看历史操作
 git remote add origin +地址     链接远程仓库
 git remote rm origin            移除
+cd .ssh				进入ssh
+ssh-keygen -t rsa -C+"邮箱"	配置信息，确认有权限进行操作
+ssh -T git@github.com		查看链接+yes+输入密码————链接成功
+git push origin master          向远程仓库推送
+git pull origin master		从远程仓库拉取
 
 修改后先查看状态——提交——查看状态——再备注           
