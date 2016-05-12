@@ -24,4 +24,7 @@ ssh -T git@github.com		查看链接+yes+输入密码————链接成功
 git push origin master          向远程仓库推送
 git pull origin master		从远程仓库拉取
 
-修改后先查看状态——提交——查看状态——再备注           
+修改后先查看状态——提交——查看状态——再备注   
+
+
+终于出来了        
