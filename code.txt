@@ -1,4 +1,4 @@
-   Github笔记
+   Git笔记
 
 cd 磁盘：          		进入该磁盘
 cd 文件名         		进入文件夹
@@ -13,5 +13,10 @@ git commit -m +内容         	备注当前内容，对当前事件的描述
 git diff+文件名                 查看修改的内容
 git log                         查看提交记录
 git reset --hard HEAD^          回到上一个版本（记录），版本回退
+git reset --hard+要恢复的commit前7位     回到想要恢复的版本
+git cat +文档名                 查看文档具体的内容
+git reflog                      查看历史操作
+git remote add origin +地址     链接远程仓库
+git remote rm origin            移除
 
 修改后先查看状态——提交——查看状态——再备注           
